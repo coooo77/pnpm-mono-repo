@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@demo/tailwind-config": "workspace:^",
     "vue": "^3.3.4"
   },
   "devDependencies": {
