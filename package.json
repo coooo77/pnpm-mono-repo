@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "pnpm --filter @demo/client"
+    "client": "pnpm --filter @demo/client",
+    "lib": "pnpm --filter @demo/ui-lib",
+    "dev": "pnpm --recursive --parallel --stream run dev"
   },
   "keywords": [],
   "author": "",
