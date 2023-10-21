@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "module": "./dist/ui-lib.js",
-  "types": "./dist/main.d.ts",
+  "types": "./dist/src/main.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "vite build --watch",
+    "dev": "vite build --watch.include src/**",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
